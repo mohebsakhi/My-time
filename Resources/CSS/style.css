@@ -4,6 +4,7 @@ header {
   width: 100%;
   height: 70px;
   margin-bottom: 30px;
+  position: fixed;
   }
 header .logo {
   margin-right: 12px;
@@ -33,8 +34,14 @@ header .navigation .bnt1 {
   top: 5px;
   }
     <!--Main Content Container-->
+.Container {
+  display: flex;
+  position:
+}
 .large-column {
+  display: inline-block;
   width: 630px;
+  border: 1px solid black;
 }
 .title-ls {
   color: ;
@@ -42,10 +49,16 @@ header .navigation .bnt1 {
   font-weight: bold;
   border: 1px solid black
 }
-
-
-.large-column {
+.second-story {
+  border: 1px solid black;
+}
+.third-story {
+  border: 1px solid black;
+}
+            <!--Second News Column-->
+.medium-column {
+  display: flex;
   border: 1px solid black;
   height: auto;
-  width: 630px;
+  width: 300px;
 }
