@@ -1,74 +1,51 @@
 header {
-  display: flex;
-  align-items: center;
+  display: inline-flex;
   border-bottom: 1px solid black;
-  position: fixed;
-  z-index: 1;
   width: 100%;
-  height: 80px;
+  height: 70px;
+  margin-bottom: 30px;
   }
 header .logo {
   margin-right: 12px;
   height: 70px;
   width: 60px;
-  display: flex;
+  display: inline;
   padding-left: 30px;
-  flex-grow: 1;
-  align-items: center;
   }
 header .title {
   color: MediumAquamarine;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-block;
-  padding-left: 10px;
+  padding: 20px 7px;
   }
-header .navigation  {
+header .navigation .bnt1 {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: black;
   display: inline-block;
-  cursor: auto;
-  padding: 40px;
-  align-items:center;
-  text-decoration: underline;
-}
-header .bnt1 {
-  display: inline-block;
-  padding: 1000px 10px;
-  color: black;
-  overflow-x: hidden;
-}
-    <!--Main Content Container-->
-.content {
-  moz-column-count: 3;
-  webkit-column-count: 3;
-  column-count: 3;
-}
-
-
-body {
-  background-color: white;
-  font-family: 'Raleway', sans-serif;
-}
-
-.navigation ul {
-  margin: 0;
-  padding: 0;
+  padding: 20px 25px;
   text-align: center;
+  text-decoration: underline;
+  position: relative;
+  left: 700px;
+  top: 5px;
+  }
+    <!--Main Content Container-->
+.large-column {
+  width: 630px;
+}
+.title-ls {
+  color: ;
+  font-family: georgia;
+  font-weight: bold;
+  border: 1px solid black
 }
 
-.navigation li {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 20px;
-}
 
-.navigation  li.logo {
-  color: black;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 4px;
+.large-column {
+  border: 1px solid black;
+  height: auto;
+  width: 630px;
 }
