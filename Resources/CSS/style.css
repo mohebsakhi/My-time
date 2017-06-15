@@ -30,9 +30,7 @@ header .navigation .bnt1 {
   font-size: 14px;
   font-weight: bold;
   color: black;
-  display: inline-block;
   padding: 20px 25px;
-  text-align: center;
   text-decoration: underline;
   position: relative;
   left: 700px;
@@ -44,7 +42,8 @@ header .navigation .bnt1 {
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
-  z-index: 2;
+
+
 
 }
 .large-column {
