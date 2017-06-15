@@ -36,20 +36,30 @@ header .navigation .bnt1 {
   left: 700px;
   top: 5px;
   }
-    <!--Main Content Container-->
-.Container {
+/* Main Content Container */
+.maincc {
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
 
-
-
 }
 .large-column {
-  display: inline-block;
+  display: inline-flex;
   width: 630px;
   border: 1px solid black;
+}
+.medium-column {
+  display: inline-flex;
+  width: 300px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+.narrative {
+  border: 1px black solid;
+}
+.pic-title3 {
+  border: 1px black solid;
 }
 .title-ls {
   color: ;
@@ -63,7 +73,7 @@ header .navigation .bnt1 {
 .third-story {
   border: 1px solid black;
 }
-            <!--Second News Column-->
+/* Second News Column */
 .medium-column {
   display: flex;
   border: 1px solid black;
